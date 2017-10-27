@@ -5,7 +5,7 @@ let articleView = {};
 // TODO: Where possible, refactor methods into arrow functions, including the document.ready() method at the bottom.
 
 // COMMENT: How do arrow functions affect the context of "this"? How did you determine if a function could be refactored?
-// Arrow functions exist only where they are writtine, not where thye are called, so they don't have their own this.
+//Arrow functions exist only where they are written, not where they are called, so they don't have their own this.
 //We just tried each one and played with syntax until it worked! They all can be reformatted!
 
 articleView.populateFilters = () => {

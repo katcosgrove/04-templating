@@ -15,15 +15,15 @@
 
   <script id="article-template" type="text/x-handlebars-template">
     <div>
-      <article class="draft" data-category="{{category}}" data-author="{{author}}">
+      <article data-category="{{category}}" data-author="{{author}}">
       <h1>{{title}}</h1>
-      <div class="byline">
-  By <address><a href="">{{author}}</a></address>
-  published <time pubdate datetime="2000-01-01">{{publishedOn}}</time>
-    </div>
-      <section class="article-body">{{{body}}}</section>
-      <a href="#" class="read-on">Read on &rarr;</a>
-    </article>
+        <div class="byline">
+          By <address><a href="{{authorUrl}}">{{author}}</a></address>
+          published <time pubdate datetime="2000-01-01">{{publishedOn}}</time>
+        </div>
+        <section class="article-body">{{{body}}}</section>
+        <a href="#" class="read-on">Read on &rarr;</a>
+      </article>
     </div>
     </script>
     <!-- <a href="#" class="read-on">Read on &rarr;</a> -->
