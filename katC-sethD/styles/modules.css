@@ -15,10 +15,6 @@
   display: inline-block;
 }
 
-.template {
-  display: none;
-}
-
 #articles {
   background-color: #f2f2f2;
 }
